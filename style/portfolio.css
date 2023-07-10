@@ -13,12 +13,14 @@ body{
     background-color: #FD6E0A;
     border: 0;
     padding: 15px 35px;
+    cursor: pointer;
 }
 /* nav related style */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 80px;
 }
 .nav-title{
 color: black;
@@ -36,4 +38,20 @@ nav li{
 nav a{
     text-decoration: none;
     color: rgb(121, 119, 119);
+}
+/* header related style */
+
+.header{
+    background-color: white;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center; 
+}
+.banner .profile{
+    width: 380px;
+}
+.bannar_content{
+
 }
